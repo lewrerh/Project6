@@ -1,0 +1,25 @@
+{
+  "name": "Project6",
+  "version": "1.0.0",
+  "description": "Static Node",
+  "main": "apps.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewrerh/Project6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewrerh/Project6/issues"
+  },
+  "homepage": "https://github.com/lewrerh/Project6#readme"
+}
