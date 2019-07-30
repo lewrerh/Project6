@@ -20,9 +20,9 @@ app.get('/', function (request, response) {
     
     response.render('index', { projects: data.projects});    
 });
-app.get('about', function (request, response) {
+app.get('/about', function (request, response) {
     
-    response.render('about', { projects: data.projects});    
+    response.render('about');    
 });
 
 app.get('/index', function (request, response) {
