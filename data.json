@@ -1,71 +1,98 @@
 {
     "projects": [
-        {
-            "id": "0",
-            "project_name": "Random Quote Generator",
-            "description": "The page is structured to give random quotes naming the source, genre and year",
-            "technologies": [
-                "JavaScript", "HTML", "CSS"
-            ],
-            "live_link": "http://www.google.com",
-            "github_link": "https://github.com/lewrerh",
-            "image_urls": [
-                "/images/IMG_1336.jpg", "url2", "url3" 
-            ]
-        },
-        {
-         "id": "1",
-         "project_name": "Pagination and Filtering",
-         "description": "This project begins with either 64 or 44 students displayed and the pagination is set to only show 10 students per page until the last page is reached showing only 4 remaining students",
-         "technologies": [
-             "JavaScript", "HTML", "CSS"
-         ],
-         "live_link": "https://github.com/lewrerh/Project2",
-         "github_link": "https://github.com/lewrerh",
-         "image_urls": [
-             "url1", "url2", "url3" 
-         ]
-       },
-       {
-         "id": "2",
-         "project_name": "Interactive Form",
-         "description": "This registration form is for a technical conference and the HTML & CSS files are designed where the user must at least complete the name, email, at least one activity, and method of payment.” I have built in validations with requirements that display the requirements if not met on each section.",
-         "technologies": [
-             "JavaScript", "HTML", "CSS", "API"
-         ],
-         "live_link": "https://github.com/lewrerh/FixProject3",
-         "github_link": "https://github.com/lewrerh",
-         "image_urls": [
-             "url1", "url2", "url3" 
-         ]
-       },
-       {
-         "id": "3",
-         "project_name": "Phrase Hunter Game",
-         "description": "This is a word building game, guessing the correct phrase before running out of 5 live hearts to win”. The user looses one heart with each wrong guess and 5 misses, game over displays",
-         "technologies": [
-             "JavaScript", "HTML", "CSS"
-         ],
-         "live_link": "https://github.com/lewrerh/Project4",
-         "github_link": "https://github.com/lewrerh",
-         "image_urls": [
-             "url1", "url2", "url3" 
-         ]
-        },
-        {
-         "id": "4",
-         "project_name": "Awesome Startup Employee Directory",
-         "description": "An employee directory for remote employees was created to display 12 employees randomly at a time. Their images are show and minimal info until clicked, then a modal popup displays details on the chosen employee",
-         "technologies": [
-             "JavaScript", "HTML", "CSS", "API"
-         ],
-         "live_link": "https://github.com/lewrerh/Project5",
-         "github_link": "https://github.com/lewrerh",
-         "image_urls": [
-             "url1", "url2", "url3" 
-         ]
-        }
+     {
+       "id": "0",
+       "project_name": "Random Quote Generator",
+       "description": "The page is structured to give random quotes naming the source, genre and year",
+       "technologies": [
+         "JavaScript",
+         "HTML",
+         "CSS"
+       ],
+       "live_link": "https://lewrerh.github.io/Techdegree-Unit-1/",
+       "github_link": "https://github.com/lewrerh",
+       "image_urls": [
+         "/images/proj1image.PNG",
+         "/images/proj1-2.PNG",
+         "/images/proj1-3.PNG",
+         "/images/proj1-4.PNG"
+       ]
+     },
+     {
+       "id": "1",
+       "project_name": "Pagination and Filtering",
+       "description": "This project begins with either 64 or 44 students displayed and the pagination is set to only show 10 students per page until the last page is reached showing only 4 remaining students",
+       "technologies": [
+         "JavaScript",
+         "HTML",
+         "CSS"
+       ],
+       "live_link": "https://lewrerh.github.io/Project2/",
+       "github_link": "https://github.com/lewrerh",
+       "image_urls": [
+         "/images/proj2.PNG",
+         "/images/proj2-2.PNG",
+         "/images/proj2-3.PNG",
+         "/images/proj2-4.PNG"
+       ]
+     },
+     {
+       "id": "2",
+       "project_name": "Interactive Form",
+       "description": "This registration form is for a technical conference and the HTML & CSS files are designed where the user must at least complete the name, email, at least one activity, and method of payment.” I have built in validations with requirements that display the requirements if not met on each section.",
+       "technologies": [
+         "JavaScript",
+         "HTML",
+         "CSS",
+         "API"
+       ],
+       "live_link": "https://lewrerh.github.io/FixProject3/",
+       "github_link": "https://github.com/lewrerh",
+       "image_urls": [
+         "/images/proj3.PNG",
+         "/images/proj3-2.PNG",
+         "/images/proj3-3.PNG",
+         "/images/proj3-4.PNG"
+       ]
+     },
+     {
+       "id": "3",
+       "project_name": "Phrase Hunter Game",
+       "description": "This is a word building game, guessing the correct phrase before running out of 5 live hearts to win”. The user looses one heart with each wrong guess and 5 misses, game over displays",
+       "technologies": [
+         "JavaScript",
+         "HTML",
+         "CSS"
+       ],
+       "live_link": "https://lewrerh.github.io/Project4/",
+       "github_link": "https://github.com/lewrerh",
+       "image_urls": [
+         "/images/proj4.PNG",
+         "/images/proj4-2.PNG",
+         "/images/proj4-3.PNG",
+         "/images/proj4-4.PNG"
+       ]
+     },
+     {
+       "id": "4",
+       "project_name": "Awesome Startup Employee Directory",
+       "description": "An employee directory for remote employees was created to display 12 employees randomly at a time. Their images are show and minimal info until clicked, then a modal popup displays details on the chosen employee",
+       "technologies": [
+         "JavaScript",
+         "HTML",
+         "CSS",
+         "API"
+       ],
+       "live_link": "https://lewrerh.github.io/Project5/",
+       "github_link": "https://github.com/lewrerh",
+       "image_urls": [
+         "/images/proj5.PNG",
+         "/images/proj5-2.PNG",
+         "/images/proj5-3.PNG",
+         "/images/proj5-4.PNG"
+       ]
+     }
     ]
-  
+ 
  }
  
