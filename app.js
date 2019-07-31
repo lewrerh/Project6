@@ -37,16 +37,14 @@ app.get('/project', function (request, response) {        // Set an app route fo
     response.render('project', { project: data.projects[projectIndex] });
 });
 
-// Set an error handling middleware for the project
-app.use(function (request, response, next) {
+app.use(function (request, response, next) {              // Set an error handling middleware for the project   
 
     const err = new Error('Server error: Your requested page does not exist');
     err.status = 404;
     next(err);
 });
 
-// Handle errors
-app.use(function (err, request, response, next) {
+app.use(function (err, request, response, next) {         // Handle errors
 
     response.locals.error = err;
     response.render('error', { error: err });
@@ -54,8 +52,7 @@ app.use(function (err, request, response, next) {
 
 });
 
-// Start server listening on port 3000
-app.listen('3000', () => {
+app.listen('3000', () => {                              // Start server listening on port 3000
     console.log('Server started on port 3000');
 });
 
