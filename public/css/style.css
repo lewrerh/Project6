@@ -1,3 +1,6 @@
+body {
+  background-color: lightblue
+}
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -147,4 +150,17 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.textShadow {
+  text-shadow: 5px 5px 10px #00FF00;
+}
+
+.transition {
+  -webkit-transition: border 2s; /* For Safari 3.1 to 6.0 */
+  transition: border 2s;
+}
+
+.cell:hover {
+  border: 5px solid black;
 }
